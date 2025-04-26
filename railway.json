@@ -1,8 +1,9 @@
 {
   "build": {
-    "builder": "NIXPACKS"
+    "builder": "NIXPACKS",
+    "buildCommand": "go build -o ./bin/bot ./cmd/server/main.go"
   },
   "deploy": {
-    "startCommand": "go run ./cmd/server/main.go"
+    "startCommand": "./bin/bot"
   }
 }
