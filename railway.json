@@ -2,5 +2,7 @@
   "build": {
     "builder": "NIXPACKS"
   },
-  "start": "go run main.go"
+  "deploy": {
+    "startCommand": "go run main.go"
+  }
 }
