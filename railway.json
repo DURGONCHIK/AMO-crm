@@ -3,6 +3,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "go run main.go"
+    "startCommand": "go run ./cmd/main.go"
   }
 }
